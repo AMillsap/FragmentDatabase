@@ -15,7 +15,7 @@ class MainActivity : AppCompatActivity(),
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
-        //databaseHelper.insertContactIntoDatabase(Contact("Andrew", "Millsap", "6147956360"))
+        databaseHelper.insertContactIntoDatabase(Contact("Andrew", "Millsap", "6147956360"))
 
         supportFragmentManager
             .beginTransaction()
